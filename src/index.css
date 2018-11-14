@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+KR:400,900');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400');
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
+/*
+    BOOTSTRAP MODS
+*/
+
+#projects .card, #coursework .card {
+    flex-basis: 40%;
+    font-family: 'Source Sans Pro', sans-serif;
+    background: white;
+    color: midnightblue;
+}
+
+/*
+    CUSTOM STYLING
+*/
+
+#about, #projects, #contact {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+body {
+    font-family: 'Merriweather', 'Times New Roman', Times, serif;
+}
+
+p {
+    /* font-family: 'Noto Serif KR', serif; */
+    line-height: 150%;
+}
+
+#projects, #about {
+    max-width: initial;
+}
+
+#about img {
+    max-height: 360px;
+    object-fit: cover;
+}
+
+#projects img {
+    max-width: 72px;
+}
+
+#contact img {
+    height: 36px;
+    width: 36px;
+}
+
+#headshot-div img {
+    border: 10px solid white;
+}
+
+.parallax-container {
+    margin: 0;
+    background-attachment: fixed;
+    background-position: center;
+}
