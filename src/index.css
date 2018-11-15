@@ -8,9 +8,7 @@
 
 #projects .card, #coursework .card {
     flex-basis: 40%;
-    font-family: 'Source Sans Pro', sans-serif;
-    background: white;
-    color: midnightblue;
+    border: 10px solid white;
 }
 
 /*
@@ -49,7 +47,7 @@ p {
     width: 36px;
 }
 
-#headshot-div img {
+#headshot-div img, #about-me {
     border: 10px solid white;
 }
 
@@ -57,4 +55,9 @@ p {
     margin: 0;
     background-attachment: fixed;
     background-position: center;
+}
+
+#parallax-text {
+    font-size: 48px;
+    color: grey;
 }

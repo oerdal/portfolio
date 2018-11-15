@@ -12,11 +12,11 @@ class App extends React.Component {
     render() {
         return (
             <div>
-                <Parallax background={clouds} />
+                <Parallax background={clouds} text={"OZAN ERDAL"} />
                 <About background={darkclouds} />
-                <Parallax background={clouds} />
+                <Parallax background={clouds} text={"Keep Scrolling!"} />
                 <Projects background={darkclouds} />
-                <Parallax background={clouds} />
+                <Parallax background={clouds} text={"I made these clouds too!"} />
                 <Contact background={darkclouds} />
             </div>
         )
