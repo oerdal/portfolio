@@ -53,7 +53,7 @@ class Projects extends Component {
                     </div>
                     <div className="card my-2 bg-light">
                         <div className="card-body">
-                            <h2 className="card-title">SeattleScouting.org</h2>
+                            <h2 className="card-title">SeattleScouting.org <em>(In Progress)</em></h2>
                             <p className="card-text">Building an easily maintanable site for a catalog/reference guide for local Scouting.</p>
                             <a className="card-link btn btn-outline-primary" href="http://www.seattlescouting.org" target="_blank">Check it Out!</a>
                             <a className="card-link btn btn-outline-success disabled text-muted" href="" target="_blank">Github</a>

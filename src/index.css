@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif+KR:400,900');
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400');
-@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
 
 /*
     BOOTSTRAP MODS
@@ -21,7 +21,9 @@
 }
 
 body {
-    font-family: 'Merriweather', 'Times New Roman', Times, serif;
+    /* font-family: 'DM Serif Display', serif; */
+    font-family: 'Indie Flower', cursive;
+    /* font-family: 'Merriweather', 'Times New Roman', Times, serif; */
 }
 
 p {

@@ -22,7 +22,7 @@ class Contact extends Component {
         return (
             <div className="container w-50" id="contact" style={styles}>
                 <h1 className="text-center">Contact</h1>
-                <p className="text-center">You can contact me at any of the outlets below or at my email: <a href="mailto:ozanerdal98@gmail.com">ozanerdal98@gmail.com</a></p>
+                <p className="text-center">You can contact me at any of the outlets below or at my email: <a href="mailto:oerdal@uw.edu">oerdal@uw.edu</a></p>
                 <div className="row justify-content-center">
                     <a className="col text-center" target="_blank" href="https://www.facebook.com/itsozan"><img src={Facebook} alt="facebook" /></a>
                     <a className="col text-center" target="_blank" href="https://www.github.com/oerdal"><img src={Github} alt="github" /></a>
